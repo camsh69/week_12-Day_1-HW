@@ -2,7 +2,7 @@ package behaviours;
 
 public interface IReviewed {
 
-    int getRaring();
+    int getRating();
 
     String getName();
 }
