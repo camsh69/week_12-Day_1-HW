@@ -49,13 +49,13 @@ public class RollercoasterTest {
     }
 
     @Test
-    public void over200TallPeoplePayDouble() {
+    public void over200InHeightPayDouble() {
         visitor = new Visitor(18, 201.00, 25.00);
         assertEquals(16.80, rollerCoaster.priceFor(visitor), 0.0);
     }
 
     @Test
-    public void lessThan200TallPeoplePayDefault() {
+    public void lessThan200InHeightPayDefault() {
         visitor = new Visitor(18, 200.00, 25.00);
         assertEquals(8.40, rollerCoaster.priceFor(visitor), 0.0);
     }
