@@ -6,5 +6,5 @@ public interface ITicketed {
 
     double defaultPrice();
 
-    double priceFor(Visitor person);
+    double priceFor(Visitor visitor);
 }
